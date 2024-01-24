@@ -29,6 +29,12 @@ library is useful per se.
 1. Prefere no external deps except Go stdlib.
 1. Cover SDK calls with unit tests.
 
+## See also
+
+* [`grafana-foundation-sdk`](https://github.com/grafana/grafana-foundation-sdk/): A set of tools, types and libraries for building and manipulating Grafana objects – built by Grafana Labs
+* [`grabana`](https://github.com/K-Phoen/grabana): User-friendly Go library for building Grafana dashboards
+* [`dark`](https://github.com/K-Phoen/dark): (grafana) Dashboards As Resources in Kubernetes
+
 ## Examples [![GoDoc](https://godoc.org/github.com/K-Phoen/sdk?status.svg)](https://godoc.org/github.com/K-Phoen/sdk)
 
 ```go

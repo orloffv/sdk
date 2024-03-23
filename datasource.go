@@ -61,7 +61,7 @@ type DatasourceRef struct {
 	// If Type is empty in an unmarshaled DatasourceRef, check the LegacyName field.
 	Type string `json:"type"`
 	// UID is the uid of the specific datasource this references to.
-	UID string `json:"UID"`
+	UID string `json:"uid"`
 	// LegacyName is the old way of referencing a datasource by its name, replaced in Grafana v8.4.3 by Type and UID referencing.
 	// If datasource is encoded as a string, then it's unmarshaled into this LegacyName field (Type and UID will be empty).
 	// If LegacyName is not empty, then this DatasourceRef will be marshaled as a string, ignoring the values of Type and UID.

@@ -347,6 +347,7 @@ type (
 	}
 	TimeseriesTooltipOptions struct {
 		Mode string `json:"mode"`
+		Sort string `json:"sort"`
 	}
 	FieldConfigDefaults struct {
 		Unit        string            `json:"unit"`
